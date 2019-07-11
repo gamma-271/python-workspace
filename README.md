@@ -1,2 +1,2 @@
 # python-workspace
-Python workspace for gitub
+Python workspace for gitpod
