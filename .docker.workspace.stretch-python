@@ -1,8 +1,8 @@
 FROM buildpack-deps:stretch
 
 ### base ###
-#RUN apt-get update && \
-RUN apt-get install -yq \
+RUN apt-get update \
+    && apt-get install -yq \
         bash-completion \
         build-essential \
         htop \
